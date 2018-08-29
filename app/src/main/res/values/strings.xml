@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Iugu Clientes</string>
+    <string name="title_activity_novo_cliente">Novo Cliente</string>
+    <string name="nomeCliente">Nome</string>
+    <string name="emailCliente">Email</string>
+    <string name="salvarButtonCliente">Salvar</string>
+    <string name="xxxx_xxxx_xxxx_1111">XXXX-XXXX-XXXX-1111</string>
+    <string name="expira_em">Expira em</string>
+    <string name="_11_2020">11/2020</string>
+    <string name="bandeira_cartao">bandeira_cartao</string>
+    <string name="cartao_padrao">Cartao padrao</string>
+    <string name="icone_pop_up_menu">Icone pop-up menu</string>
+    <string name="nenhuma_forma_de_pagamento">Nenhuma forma de pagamento</string>
+    <string name="title_activity_detalhes_cliente">Detalhes Cliente</string>
+    <string name="editarcliente">editarCliente</string>
+    <string name="novocliente">novoCliente</string>
+    <string name="atualizarclientes">atualizarClientes</string>
+    <string name="primeiro_nome">Primeiro Nome</string>
+    <string name="ultimo_nome">Ultimo Nome</string>
+    <string name="comprar">Comprar</string>
+    <string name="descricao_da_compra">Descricao da compra</string>
+    <string name="valor_da_compra">Valor da compra</string>
+    <string name="forma_de_pagamento">Forma de pagamento:</string>
+    <string name="xxxx_xxxx_xxxx_xxxx">XXXX-XXXX-XXXX-XXXX</string>
+</resources>
