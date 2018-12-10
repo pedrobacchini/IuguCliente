@@ -11,9 +11,9 @@ import retrofit2.converter.jackson.JacksonConverterFactory;
 
 public class ServiceGenerator {
 
-    private static final String TokenIUGU = "Token IUGU vai aqui";
+    private static final String TokenIUGU = "fc4e4a64676b7f23ce9d33a31b52de34";
 
-    public static final String BASE_URL = "https://api.iugu.com/v1/";
+    private static final String BASE_URL = "https://api.iugu.com/v1/";
 
     private static OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
 
@@ -33,7 +33,7 @@ public class ServiceGenerator {
         return createService(CobrancaInterface.class,TokenIUGU,"");
     }
 
-    public static <S> S createService(Class<S> serviceClass, String userName, String password){
+    private static <S> S createService(Class<S> serviceClass, String userName, String password){
         if(!TextUtils.isEmpty(userName)){
             String authToken = Credentials.basic(userName,password);
             return createService(serviceClass, authToken);
@@ -41,7 +41,7 @@ public class ServiceGenerator {
         return createService(serviceClass, null);
     }
 
-    public static <S> S createService(Class<S> serviceClass, String authToken){
+    private static <S> S createService(Class<S> serviceClass, String authToken){
         if(!TextUtils.isEmpty(authToken)){
             AuthenticationInterceptor interceptor = new AuthenticationInterceptor(authToken);
 
